@@ -1,0 +1,105 @@
+header {
+
+    width: 85%;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+  
+  .header-buttons {
+    display: flex;
+    align-items:center;
+    margin-left: 806px;
+  }
+  
+  .header-buttons button,
+  .header-buttons .cart-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .header-buttons button:hover,
+  .header-buttons .cart-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for category blocks */
+  .category-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-block {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  .category-block:hover {
+    background-color: #007bff;
+  }
+  
+  .category-block:hover .dropdown {
+    display: flex;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 134px;
+    flex-direction: row;
+    background-color: #555;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown .category-item {
+    color: #fff;
+    margin: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown .category-item:hover {
+    background-color: #007bff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }

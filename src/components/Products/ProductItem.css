@@ -1,0 +1,44 @@
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    height: 300px; 
+    vertical-align: top;
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; 
+  }
+  
+  .product-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    height: 2.4em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+  }
+  
+  .product-item p {
+    font-size: 1em;
+    height: 2.4em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px 0;
+  }
+  
+  .product-item button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
