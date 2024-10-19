@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { addToCart } from 'C:/Users/maske/OneDrive/Рабочий стол/Веб/fakestore/src/redux/actions/cartAction.ts';
+import { addToCart } from 'C:/fakestore/src/redux/actions/cartAction.ts';
 import './ProductItem.css';
 import { Product } from '../../types';
 

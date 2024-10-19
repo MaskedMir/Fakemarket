@@ -1,6 +1,6 @@
 // src/redux/reducers/productsReducer.ts
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchProducts } from 'C:/Users/maske/OneDrive/Рабочий стол/Веб/fakestore/src/redux/actions/productActions.ts'; // Проверьте правильность пути
+import { fetchProducts } from 'C:/fakestore/src/redux/actions/productActions.ts'; // Проверьте правильность пути
 
 const productsSlice = createSlice({
   name: 'products',
@@ -19,7 +19,7 @@ const productsSlice = createSlice({
         state.status = 'succeeded';
         state.items = action.payload;
       })
-      .addCase(fetchProducts.rejected, (state, action) => {
+      .addCase(fetchProducts.rejected, (state) => {
         state.status = 'failed';
       });
   },

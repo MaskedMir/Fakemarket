@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ProductItem from './ProductItem';
-import Header from 'C:/Users/maske/OneDrive/Рабочий стол/Веб/fakestore/src/components/Header.tsx';
+import Header from 'C:/fakestore/src/components/Header.tsx';
 import { Product } from '../../types';
 import './ProductList.css';
 

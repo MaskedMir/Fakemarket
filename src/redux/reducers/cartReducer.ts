@@ -1,7 +1,7 @@
 // src/redux/reducers/cartReducer.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { Product } from '../../types';
-import { addToCart, removeFromCart } from 'C:/Users/maske/OneDrive/Рабочий стол/Веб/fakestore/src/redux/actions/cartAction.ts';
+import { addToCart, removeFromCart } from 'C:/fakestore/src/redux/actions/cartAction.ts';
 
 interface CartState {
   items: Product[];
